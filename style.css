@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(Images/amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Box 2 */
+
+.add-first {
+ color:#cccccc;
+ font-size: 0.85rem;
+ margin-left: 15px;
+}
+
+.add-sec {
+ font-size: 1rem;
+ margin-left: 3px;
+}
+
+.add-icons {
+    display: flex;
+    align-items: center;
+
+}
+
+/* Box 3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: #febd69;
+    border-radius: 3px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: black;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* Box 4  */
+
+.fourth-box {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.flag {
+    background-image: url(Images/flag.png);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+
+.dropdown {
+    background-image: url(Images/down-arrow.png);
+    height: 10px;
+    width: 10px; /* Fixed missing 'px' unit */
+    background-size: cover; /* Ensure the image scales correctly */
+    filter: invert(0.7);
+}
+
+
+  /* Box 5  */
+  
+.nav-signin span {
+    font-size: 0.7rem;
+  }
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  /* Box 6 */
+
+
+
+
+
+  /* Box 7 */
+
+  .nav-cart i {
+    font-size: 1.5rem;
+  }
+
+  .nav-cart {
+    font-weight: 600;
+  }
+
+
