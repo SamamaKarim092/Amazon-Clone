@@ -310,17 +310,40 @@ footer {
 
 
  .world-button {
-  color: white;
+  color: rgb(190, 186, 186);
   display: flex;
   padding: 8px;
-  border: 2px solid white;
+  border: 2px solid grey;
   padding-right: 25px;
   padding-left: 8px;
-
+  margin-left: 8vw;
  }
 
  .world-button p {
   margin-left: 10px;
+ }
+
+ .dollar {
+  color: rgb(190, 186, 186);
+  border: 2px solid grey;
+  padding: 8px;
+  padding-right: 25px;
+  margin-left: 8px;
+ }
+
+ .country-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 2px solid grey;
+  color: rgb(190, 186, 186);
+  margin-left: 8px;
+  padding-right: 18px;
+ }
+
+ .country-flag img {
+  padding-right: 10px;
  }
 
 
